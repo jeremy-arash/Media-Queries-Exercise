@@ -60,19 +60,55 @@
         margin-top: 5px;
     }
 
+footer {
+    width: 100%;
+    position: relative;
+    top: 300px;
+    float: left;
+}
+
+footer p {
+    float: left;
+}
+
+.flex-center {
+    position: absolute;
+    right: 0px;
+    bottom: -16px;
+
+}
+
+.social-icons {
+    float: right;
+}
+
+.social-icons img {
+    float: left;
+    width: 20px;
+    height: 20px;
+}
+
+._14 {
+    position: relative;
+    left: 72px;
+    top: 30px;
+}
+
 @media screen and (min-width: 340px) {
 
 
     body {
+        /*position: relative;*/
         max-width: 890px;
         /*margin: 0 auto;*/
         font-family: Arial;
         font-weight: bold;
     }
 
-    .hidden-on-desktop{
+    .hidden-on-desktop {
         display: none;
     }
+
     h1 {
         text-align: initial;
         float: left;
@@ -80,8 +116,7 @@
 
     .nav-links {
         padding: 0;
-        margin-top:17px;
-
+        margin-top: 17px;
         float: right;
     }
 
@@ -93,23 +128,55 @@
         margin: 5px 0;
         font-size: small;
     }
-    img {
+
+    .header-img img {
         width: 890px;
         height: 385px;
     }
-    .main{
+
+    .main {
         width: 60%;
         margin: 0;
         float: left;
     }
-    .sub-section{
+
+    .sub-section {
         width: 30%;
         float: right;
-        margin: 0 0 200px 0;
     }
-    footer{
+
+    footer {
+        width: 100%;
+        position: relative;
+        top: 300px;
+        float: left;
+    }
+
+    footer p {
+        float: left;
+    }
+
+    .flex-center {
         position: absolute;
-        top: 900px;
+        right: 0px;
+        bottom: -16px;
+
+    }
+
+    .social-icons {
+        float: right;
+    }
+
+    .social-icons img {
+        float: left;
+        width: 20px;
+        height: 20px;
+    }
+
+    ._14 {
+        position: relative;
+        left: 72px;
+        top: 30px;
     }
 
 
