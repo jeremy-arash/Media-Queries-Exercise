@@ -4,7 +4,7 @@
     body{
         width: 100%;
         margin: 0 auto;
-        font-family: "Arial Narrow";
+        font-family: Arial;
         font-weight: bold;
     }
 
@@ -63,9 +63,54 @@
 @media screen and (min-width: 340px) {
 
 
+    body {
+        max-width: 890px;
+        /*margin: 0 auto;*/
+        font-family: Arial;
+        font-weight: bold;
+    }
 
+    .hidden-on-desktop{
+        display: none;
+    }
+    h1 {
+        text-align: initial;
+        float: left;
+    }
 
+    .nav-links {
+        padding: 0;
+        margin-top:17px;
 
+        float: right;
+    }
+
+    li {
+        text-align: center;
+        list-style: none;
+        background-color: initial;
+        display: inline-block;
+        margin: 5px 0;
+        font-size: small;
+    }
+    img {
+        width: 890px;
+        height: 385px;
+    }
+    .main{
+        width: 60%;
+        margin: 0;
+        float: left;
+    }
+    .sub-section{
+        width: 30%;
+        float: right;
+        margin: 0 0 200px 0;
+    }
+    footer{
+        position: absolute;
+        top: 900px;
+    }
 
 
 }
